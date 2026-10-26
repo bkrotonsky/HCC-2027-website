@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gallery | NAU Hydropower Collegiate Competition</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="nav-logo">
+    <svg class="mark" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M2 24L11 10L16 17L20 11L30 24" stroke="#ffc72c" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+      <path d="M2 27H30" stroke="#002454" stroke-width="2" stroke-linecap="round"/>
+    </svg>
+    NAU<span>.</span>HCC27
+  </a>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="team.html">Team</a></li>
+    <li><a href="documents.html">Documents</a></li>
+    <li><a href="gallery.html">Gallery</a></li>
+  </ul>
+</nav>
+
+<div class="page-hero">
+  <div class="page-hero-left">
+    <div class="hero-anim"><span class="label">Gallery</span></div>
+    <h1 class="display-xl hero-anim" style="margin-top:16px;">
+      Notes From<br />the <em style="color:var(--gold-deep); font-style:italic;">Season</em>
+    </h1>
+  </div>
+  <div class="page-hero-right hero-anim">
+    <p class="body-text">
+      Short write-ups of the activities and projects we're working on,
+      newest first.
+    </p>
+  </div>
+</div>
+
+<hr class="hr" style="margin-bottom: 64px;" />
+
+<!-- Posts are rendered from the list in js/gallery.js -->
+<div class="gallery-wrap" id="gallery-feed"></div>
+
+<footer>
+  <span class="footer-logo">NAU<span>.</span>HCC27</span>
+  <ul class="footer-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="team.html">Team</a></li>
+    <li><a href="documents.html">Documents</a></li>
+    <li><a href="gallery.html">Gallery</a></li>
+  </ul>
+  <span class="footer-copy">&copy; <span class="current-year"></span> NAU Hydropower Collegiate Competition Team</span>
+</footer>
+
+<script src="js/gallery.js"></script>
+<script src="js/main.js"></script>
+<script src="js/admin.js"></script>
+</body>
+</html>
